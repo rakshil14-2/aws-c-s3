@@ -166,3 +166,19 @@ aws-c-s3/build/samples/s3/s3 ls s3://<bucket-name> --region <region>
 
 The unit tests require an AWS account with S3 buckets set up in a particular way.
 Use the [test_helper script](./tests/test_helper/) to set this up.
+
+<!-- PLATFORM_SUPPORT_START -->
+# Platform Support
+
+## Tier 1 — Fully Supported & Tested in CI
+
+| Platform | Architecture |
+|----------|--------------|
+| manylinux2014 | x64, x86 |
+
+## Tier 2 — Supported (Not Tested in CI)
+
+| Platform | Architecture |
+|----------|--------------|
+
+<!-- PLATFORM_SUPPORT_END -->
